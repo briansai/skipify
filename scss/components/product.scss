@@ -7,7 +7,7 @@
     width: 100%;
 
     .popover {
-      width: 15%;
+      width: 20%;
       background-color: white;
       position: absolute;
       z-index: 1;
@@ -15,11 +15,13 @@
       display: 'block';
       background-color: 'white';
       line-height: 1.5rem;
+      box-shadow: 0 1.5rem 2rem rgba(black, 0.2);
 
       &__title {
         text-align: center;
         padding: 0.25rem;
         margin: 0;
+        border-bottom: 1px solid rgba(black, 0.2);
       }
 
       &__item {
